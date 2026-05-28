@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(255, 246, 197);
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: rgb(58, 38, 22);
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    font-size: 100px;
+}
