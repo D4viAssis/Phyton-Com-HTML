@@ -8,18 +8,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1 class="title">Phyton Com HTML</h1>
+    <h1 class="title">Phyton + HTML</h1>
     <div class="card">
-        <h1>Integração Phyton + HTML</h1>
-        <h2>Bem vindo!</h2>
+        <h2 class="welcome">Bem vindo!</h2>
         <p><strong>Nome:</strong> {{ nome }}</p>
         <p><strong>Curso:</strong> {{ curso }}</p>
         <button onclick="mostrarMensagem()">
             Clique aqui
         </button>
         <br><br>
+        <a href="/sobre">
+            <button>Ir para sobre</button>
+        </a>
     </div>
+    <script>
+        function mostrarMensagem() {
+            alert("Parabéns, seu site está funcionando!")
+        }
+    </script>
 </body>
 </html>
