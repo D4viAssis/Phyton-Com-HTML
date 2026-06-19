@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def inicio():
-    nome = "Turma de programação"
+    nome = "Turma de Programação"
     curso = "Phyton & HTML"
 
     return render_template (
@@ -21,8 +21,8 @@ def sobre():
     <a href="/">Voltar para o inicio</a>
     """
 
-    if __name__ == '__main __':
-        app.run(host='0.0.0.0.' port=3000, debug=true)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=3000, debug=True)
     
     
 
